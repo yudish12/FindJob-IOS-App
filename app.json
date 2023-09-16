@@ -5,6 +5,12 @@
       "bundler": "metro"
     },
     "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location."
+        }
+      ],
       "expo-router"
     ],
     "name": "job-app",
